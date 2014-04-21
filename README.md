@@ -29,11 +29,19 @@ Answer some questions in the prompt and you're done!
 Run
 
 ```
-grunt
+grunt serve
 ```
 to watch `.scss` files and live reload!
 
 **Note:** live reload works only if you're working on localhost, 192.168.50.4, or an URL ending in .dev
+
+To build
+
+```
+grunt build
+```
+to create your `dist` production-ready folder
+
 
 ## License
 
