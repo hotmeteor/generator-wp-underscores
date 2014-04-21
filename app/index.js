@@ -167,7 +167,7 @@ WpUnderscoresGenerator.prototype.addfiles = function addfiles() {
   this.copy('_theme.js', 'js/theme.js');
   this.copy('_package.json', 'package.json');
   this.copy('_bower.json', 'bower.json');
-  this.copy('Gruntfile.js');
+  this.copy('_Gruntfile.js', 'Gruntfile.js');
   this.copy('_gitignore', '.gitignore');
 };
 
