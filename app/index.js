@@ -169,6 +169,7 @@ WpUnderscoresGenerator.prototype.addfiles = function addfiles() {
   this.copy('_bower.json', 'bower.json');
   this.copy('_Gruntfile.js', 'Gruntfile.js');
   this.copy('_gitignore', '.gitignore');
+  this.copy('build.html');
 };
 
 WpUnderscoresGenerator.prototype.sassboostrap = function sassboostrap() {
